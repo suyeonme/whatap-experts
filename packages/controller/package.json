@@ -1,0 +1,19 @@
+{
+  "name": "@whatap-experts/controller",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whatap-experts/whatap-experts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whatap-experts/whatap-experts/issues"
+  },
+  "homepage": "https://github.com/whatap-experts/whatap-experts#readme"
+}
