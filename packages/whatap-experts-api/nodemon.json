@@ -1,0 +1,6 @@
+{
+    "watch": [
+        "../create-whatap-experts/.next",
+        "./src"
+    ]
+}

@@ -34,3 +34,6 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+packages/whatap-experts-api/dist/
+packages/create-whatap-experts/.next
