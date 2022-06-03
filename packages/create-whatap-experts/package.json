@@ -1,14 +1,17 @@
 {
-  "name": "create-whatap-experts",
+  "name": "@whatap-experts/cwe",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "echo 'create-whatap-experts'"
   },
   "dependencies": {
+    "@apollo/client": "^3.6.5",
+    "graphql": "^16.5.0",
     "next": "12.1.6",
     "react": "18.1.0",
     "react-dom": "18.1.0"

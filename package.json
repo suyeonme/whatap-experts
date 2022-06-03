@@ -2,11 +2,11 @@
   "name": "whatap-experts",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "concurrently \"npm run dev --workspace=create-whatap-experts\" \"npm run dev --workspace=@whatap-experts/community\""
+    "dev": "concurrently \"npm run api run dev\" \"npm run cwe run dev\" \"micro-proxy -r rules-dev.json\"",
+    "cwe": "npm -w=@whatap-experts/cwe",
+    "api": "npm -w=@whatap-experts/api",
+    "ui": "npm -w=@whatap-experts/ui"
   },
   "repository": {
     "type": "git",
@@ -19,9 +19,11 @@
   },
   "homepage": "https://github.com/whatap-experts/whatap-experts#readme",
   "workspaces": [
-    "packages/*"
+    "./packages/*"
   ],
-  "dependencies": {
-    "concurrently": "^7.2.1"
-  }
+  "devDependencies": {
+    "concurrently": "^7.2.1",
+    "micro-proxy": "^1.1.0"
+  },
+  "dependencies": {}
 }
