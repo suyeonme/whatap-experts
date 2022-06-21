@@ -4,6 +4,7 @@
         "lib": [
             "es7"
         ],
+        "moduleResolution": "node",
         "outDir": "dist",
         "rootDir": "src",
         "removeComments": true,
